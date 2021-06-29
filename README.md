@@ -13,23 +13,16 @@ An application layer middleware protocol that implements reliable transfer of da
 <br>
 <br>
 
-
 ## Instructions for use
 Open parallel terminals and run ServerApp.py and ClientApp.py simultaneously (Preferably, run ServerApp.py first). Provide the file name as a command-line argument to the server and the client program. The file to be sent from the server must be present in the "data/sender/" folder, and the file would be recevied on the client side in the "data/receiver/" folder.
 After navigating to the folder on terminal, enter :
 
- 
-
- 
-
-
-
+```
     python3 ServerApp.py <filename>
 
     python3 ClientApp.py <filename>
+```
 
-
-<br>
 <br>
 
 ## Changes made to the original protocol
